@@ -2,17 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Lora:wght@500;600&family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Della+Respira&family=Lora:wght@500;600&family=Montserrat:wght@500&display=swap");
 
-.font-della{
-
-    font-family: 'Della Respira', serif;
+.font-della {
+  font-family: "Della Respira", serif;
 }
-.font-lora{
-
-    font-family: 'Lora', serif;
+.font-lora {
+  font-family: "Lora", serif;
 }
-.font-montserrat{
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.as-container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
-    font-family: 'Montserrat', sans-serif;
+@media screen and (min-width: 1024px) {
+  .as-container {
+    margin-left: 97px;
+    margin-right: 97px;
+  }
 }
