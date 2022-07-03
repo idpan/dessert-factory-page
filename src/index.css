@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --color-primary: 224 142 79;
+  }
+}
 @import url("https://fonts.googleapis.com/css2?family=Della+Respira&family=Lora:wght@500;600&family=Montserrat:wght@500&display=swap");
 
 .font-della {
@@ -22,5 +27,42 @@
   .as-container {
     margin-left: 97px;
     margin-right: 97px;
+  }
+}
+body {
+  height: 200vh;
+}
+.backdrop {
+  position: absolute;
+  background: linear-gradient(
+    0deg,
+    #181818 0%,
+    rgba(24, 24, 24, 0.82) 26.56%,
+    rgba(24, 24, 24, 0) 100%
+  );
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .backdrop {
+    position: absolute;
+    background: linear-gradient(
+      90deg,
+      #181818 0%,
+      rgba(24, 24, 24, 0.82) 26.56%,
+      rgba(24, 24, 24, 0) 100%
+    );
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .bg-hero-mobile {
+    background-position: center;
+    left: 0;
   }
 }
