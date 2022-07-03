@@ -44,7 +44,19 @@ body {
   left: 0;
   right: 0;
 }
-
+.backdrop-about {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -10;
+  background: linear-gradient(
+    180.08deg,
+    #000000 -6.51%,
+    rgba(24, 24, 24, 0.41) 99.93%
+  );
+}
 @media screen and (min-width: 768px) {
   .backdrop {
     position: absolute;
