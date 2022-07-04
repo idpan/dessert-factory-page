@@ -1,6 +1,9 @@
 export default function About(props) {
   return (
-    <section className="relative lmd:pt-[70px] h-[542px]  md:h-[1024px] md:bg-[#FFF9F4]  lmd:bg-[top_left_-200px] md:grid grid-cols-2 ">
+    <section
+      id="about"
+      className="relative lmd:pt-[70px] h-[542px]  md:h-[1024px] md:bg-[#FFF9F4]  lmd:bg-[top_left_-200px] md:grid grid-cols-2 "
+    >
       <div
         className="lmd:absolute lmd:-z-30
        top-0 bottom-0 left-0 right-0 bg-bg-about bg-no-repeat h-full bg-cover "
@@ -17,6 +20,7 @@ export default function About(props) {
           venenatis, lectus magna fringilla urna, porttitor
         </p>
       </div>
+      <span id="menu" className="absolute bottom-[50px]"></span>
     </section>
   );
 }

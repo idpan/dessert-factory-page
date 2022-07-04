@@ -1,0 +1,50 @@
+[
+  {
+    "category": "cupcake",
+    "id": "1",
+    "img": "img1",
+    "name": "redvelvet cupcake",
+    "primePrice": "50.000",
+    "actualPrice": "32.000"
+  },
+  {
+    "category": "cupcake",
+    "id": "2",
+    "img": "img2",
+    "name": "double chocolate cupcake",
+    "primePrice": "97.000",
+    "actualPrice": "56.000"
+  },
+  {
+    "category": "cupcake",
+    "id": "3",
+    "img": "img3",
+    "name": "rainbow cupcake",
+    "primePrice": "69.000",
+    "actualPrice": "56.000"
+  },
+  {
+    "category": "pancake",
+    "id": "4",
+    "img": "img4",
+    "name": "ice cream chocolate pancake",
+    "primePrice": "88.000",
+    "actualPrice": "45.000"
+  },
+  {
+    "category": "pancake",
+    "id": "5",
+    "img": "img5",
+    "name": "banana pancake",
+    "primePrice": "97.000",
+    "actualPrice": "56.000"
+  },
+  {
+    "category": "special",
+    "id": "6",
+    "img": "img6",
+    "name": "strawberry special cake",
+    "primePrice": "230.000",
+    "actualPrice": "145.000"
+  }
+]

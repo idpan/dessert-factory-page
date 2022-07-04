@@ -25,7 +25,7 @@ export default function Navbar(props) {
           <Navlink link="#menu">menu</Navlink>
           <Navlink link="#contact">contact</Navlink>
           <Navlink link="#about">about</Navlink>
-          <a href="./order">
+          <a href="#menu">
             <Button className="lmd:w-full lmd:text-[28px] lmd:py-[1rem] lmd:mt-[20px] md:py-[.8rem] md:px-[1.5rem] md:rounded-xl md:bg-[#E08E4Fcc] ">
               order now
             </Button>

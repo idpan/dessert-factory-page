@@ -18,7 +18,7 @@ export default function Hero(props) {
           place that you can find your happiness bakery, cupcake and many
           dessert that wil bring happines to your home
         </p>
-        <a href="/order">
+        <a href="#menu">
           <Button className="bg-[#E08E4Fcc] rounded-[9px] text-[24px] ">
             order now
           </Button>

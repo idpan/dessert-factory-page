@@ -29,8 +29,14 @@
     margin-right: 97px;
   }
 }
+* {
+  outline: none;
+}
+html {
+  scroll-behavior: smooth;
+}
 body {
-  height: 200vh;
+  height: 300vh;
 }
 .backdrop {
   position: absolute;
