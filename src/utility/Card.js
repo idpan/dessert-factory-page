@@ -16,7 +16,7 @@ export default function (props) {
         <strong className=" font-normal block mb-[15px] mt-[5px]  capitalize font-della text-[14px] md:text-[32px]  ">
           {props.name}
         </strong>
-        <div className="md:absolute bottom-[80px] ">
+        <div className="absolute w-full  bottom-[40px] md:bottom-[80px] ">
           <s className="block md:inline text-[10px] md:text-[14px] text-slate-400 ">
             Rp {props.primePrice}
           </s>
