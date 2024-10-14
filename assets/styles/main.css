@@ -1,0 +1,5 @@
+.section__title {
+  font-family: var(--f-family--caption);
+  font-size: var(--f-size--caption);
+  text-transform: capitalize;
+}

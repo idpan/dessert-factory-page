@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Della+Respira&family=Lora:wght@500;600&family=Montserrat:wght@500&display=swap");
+
+:root {
+  --f-family--caption: "Lora", serif;
+  --f-family: "Montserrat", sans-serif;
+
+  --f-color--light: #f2f2f2;
+  --f-color--dark: #242424;
+  --f-color--accent: #e89135;
+
+  --f-size--caption: 2rem;
+  --f-size--title: 1.5rem;
+  --f-size--body: 1rem;
+  --f-size--btn: 1.2rem;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: var(--f-size--body);
+}
+button {
+  font-family: inherit;
+}
+.section__wrapper {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+@media screen and (min-width: 1024px) {
+  :root {
+    --f-size--caption: 2.5rem;
+    --f-size--title: 1.5rem;
+    --f-size--body: 1.2rem;
+    --f-size--btn: 1.5rem;
+  }
+  .section__wrapper {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  :root {
+    --f-size--caption: 3.5rem;
+    --f-size--title: 1.5rem;
+    --f-size--body: 1.3rem;
+    --f-size--btn: 1.5rem;
+  }
+}
