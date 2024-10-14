@@ -3,6 +3,7 @@
   padding-bottom: 0.5rem;
   text-align: center;
   background-color: #d6dadd;
+  color: var(--f-color--dark);
 }
 .footer__brand {
   margin-bottom: 2rem;
