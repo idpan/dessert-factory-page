@@ -1,0 +1,39 @@
+.page-hero {
+  height: 150px;
+  position: relative;
+  background-image: url(/assets/images/bg-hero-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.page-hero__container {
+  position: absolute;
+  top: 40px;
+  background-color: rgba(65, 65, 65, 0.6);
+  padding: 20px 10px;
+}
+.page-hero__title {
+  color: var(--f-color--light);
+}
+
+.page-description {
+  padding-top: 1.5rem;
+  color: var(--f-color--dark);
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .page-hero {
+    height: 300px;
+  }
+  .page-hero__container {
+    top: 50px;
+    padding: 3rem 10rem;
+    max-width: 50rem;
+  }
+  .page-description {
+    margin: auto;
+    padding-top: 2.5rem;
+    max-width: 50rem;
+  }
+}
