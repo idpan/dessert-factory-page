@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Red Velvet Cupcake",
+    "price": 49000,
+    "image": "menu-cupcake-1.png",
+    "category": "cupcake"
+  },
+  {
+    "title": "Double Chocolate Cupcake",
+    "price": 32000,
+    "image": "menu-cupcake-2.png",
+    "category": "cupcake"
+  },
+  {
+    "title": "Rainbow Cupcake",
+    "price": 39000,
+    "image": "menu-cupcake-3.png",
+    "category": "cupcake"
+  },
+  {
+    "title": "Ice Cream Chocolate Pancake",
+    "price": 45000,
+    "image": "menu-pancake-1.png",
+    "category": "pancake"
+  },
+  {
+    "title": "Banana Pancake",
+    "price": 56000,
+    "image": "menu-pancake-2.png",
+    "category": "pancake"
+  },
+  {
+    "title": "Strawberry Special Cake",
+    "price": 145000,
+    "image": "menu-special.png",
+    "category": "cupcake"
+  }
+]
