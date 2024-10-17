@@ -1,5 +1,5 @@
 <script setup>
-import { defineProps } from "vue";
+// import { defineProps } from "vue";
 
 defineProps({
   menu: {
@@ -8,7 +8,7 @@ defineProps({
   },
 });
 
-const baseImageUrl = "/public/images/";
+const baseImageUrl = "/images/";
 </script>
 
 <template>
