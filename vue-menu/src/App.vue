@@ -1,8 +1,25 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-import TheWelcome from "./components/TheWelcome.vue";
+import CardMenu from "./components/CardMenu.vue";
+import mockMenu from "./assets/mockMenu.json";
 </script>
 
-<template></template>
+<template>
+  <div class="menu">
+    <div class="menu-filter">some filter menu nav</div>
 
-<style scoped></style>
+    <div class="menu-container">
+      <CardMenu v-for="menu in mockMenu" :key="menu.title" :menu="menu" />
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.menu-container {
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  column-gap: 30px;
+}
+</style>
