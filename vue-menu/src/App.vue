@@ -1,10 +1,23 @@
 <script setup>
-import { useFilter } from "./hooks/useFilter";
-import mockMenu from "./assets/mockMenu.json";
 import CardMenu from "./components/CardMenu.vue";
 import FilterMenu from "./components/FilterMenu.vue";
+import { useFetch } from "./hooks/useFetch";
+import { ref, computed } from "vue";
 
-const { selectedCategory, filteredMenu, setCategory } = useFilter(mockMenu);
+const selectedCategory = ref("all");
+
+const { data: fetchedMenu } = useFetch(
+  "https://idpan.github.io/dessert-factory-api/menu.json"
+);
+const filteredMenu = computed(() => {
+  if (!fetchedMenu.value.length) return [];
+  if (selectedCategory.value === "all") return fetchedMenu.value;
+  return fetchedMenu.value.filter((item) => item.category === selectedCategory);
+});
+
+function setCategory(category) {
+  selectedCategory.value = category;
+}
 </script>
 
 <template>

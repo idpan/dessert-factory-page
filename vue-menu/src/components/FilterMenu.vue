@@ -1,9 +1,17 @@
 <script setup>
+import { computed } from "vue";
 import capitalize from "../helper/capitalize";
-import mockCategories from "../assets/categories.json";
+import { useFetch } from "@/hooks/useFetch";
 
-const categories = ["all", ...mockCategories];
+const { data: fetchedCategories } = useFetch(
+  "https://idpan.github.io/dessert-factory-api/categories.json"
+);
+
+const categories = computed(() => {
+  if (fetchedCategories.value[0]) return ["all", ...fetchedCategories.value];
+});
 const emit = defineEmits(["filter"]);
+
 defineProps(["selectedCategory"]);
 
 function filterByCategory(category) {
