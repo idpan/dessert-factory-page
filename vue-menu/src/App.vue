@@ -12,7 +12,9 @@ const { data: fetchedMenu } = useFetch(
 const filteredMenu = computed(() => {
   if (!fetchedMenu.value.length) return [];
   if (selectedCategory.value === "all") return fetchedMenu.value;
-  return fetchedMenu.value.filter((item) => item.category === selectedCategory);
+  return fetchedMenu.value.filter(
+    (item) => item.category === selectedCategory.value
+  );
 });
 
 function setCategory(category) {
