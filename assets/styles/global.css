@@ -20,6 +20,7 @@ body {
 }
 button {
   font-family: inherit;
+  cursor: pointer;
 }
 .section__wrapper {
   padding-left: 2rem;
