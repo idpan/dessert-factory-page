@@ -8,7 +8,7 @@ defineProps({
   },
 });
 
-const baseImageUrl = "/images/";
+const baseImageUrl = "/assets/images/";
 </script>
 
 <template>
